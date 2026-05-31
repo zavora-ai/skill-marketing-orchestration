@@ -1,15 +1,9 @@
 ---
 name: marketing-orchestration
 description: Orchestrate multi-channel marketing — create campaigns, build audiences, generate content, schedule ads, track performance, manage attribution, and govern budgets. Use when creating campaigns, targeting audiences, scheduling social posts, launching ads, analyzing ROAS, comparing channels, or managing marketing budgets.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-marketing server connected (HubSpot Marketing, Mailchimp, Google Ads, Meta Ads).
 allowed-tools: [list_campaigns, get_campaign, create_campaign, launch_campaign, pause_campaign, list_audiences, get_audience, create_audience, estimate_reach, list_content, create_content, get_ab_variants, get_content_calendar, list_channels, schedule_post, create_ad, send_campaign_email, get_campaign_metrics, get_attribution, get_channel_comparison, get_budget_status, allocate_budget]
-tags: [business, marketing, campaigns, ads, content, audiences, attribution, revenue]
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
 metadata:
   author: Zavora AI
   mcp-server: mcp-marketing
